@@ -36,3 +36,211 @@
     transform: rotate(360deg);
   }
 }
+h1,
+p,span,div{
+    font-family:  "Google Sans Text",'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    
+  
+}
+body{
+  margin: 0;
+  padding: 10% 25%;
+  
+
+  
+}
+.main{
+  border: 1px solid white;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .main--1{
+  border: 1px solid white;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.input--search{
+  margin: 10px;
+}
+.main--2{
+  display: flex;
+
+  
+}
+.main--2 > button{
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  width: 100%;
+} */
+.cloud_icon{
+  width: 80px;
+  height: 80px;
+}
+/* .current{
+  background-size: cover;
+  background-image: url(https://img.freepik.com/free-vector/realistic-clouds-with-falling-rain_1017-33597.jpg?t=st=1658046153~exp=1658046753~hmac=5d76ecdec9c46b6be11d9c44b4649a4634673d37156035b6113d244d08b92945&w=1060);
+} */
+
+.current--21,.current--3,.current--1{
+  display: flex;
+  align-items:center;
+}
+.sun_set_rise{
+  display: flex;
+  align-items:center;
+  
+  
+}
+.current--2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+
+
+.current--31{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  width: 100%;
+  margin: 5px;
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.current--311{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.material-symbols-sharp {
+
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 1,
+  'opsz' 10
+}
+.current--1{
+  justify-content: space-between;
+}
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  height:120px;
+  min-width: 120px;
+  border: 10px solid white;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19) inset;
+}
+.aq_row{
+  display: flex;
+  align-items: center;
+  
+
+
+
+  
+}
+.aq_row_desc{
+  margin-left: 50px;
+}
+
+input{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  border-radius: 100px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19) ;
+
+
+}
+
+.inline_block{
+  display: inline-block;
+}
+.row_dayforecast{
+  display: flex;
+  align-items: center;
+  /* gap: 20px; */
+  justify-content: space-around;
+}
+.icon--value{
+  display: flex;
+  align-items: center;
+  
+}
+.main--1{
+  display: flex;
+  align-items: center;
+}
+
+.main--1 > form{
+  flex-basis: 100px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
+}
+.main--1 >button{
+  flex-basis: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  
+}
+.main--1 > span{
+  flex-basis: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+}
+.search-box:hover{
+  color: #4285F4;
+  cursor: pointer;
+}
+#condition_text{
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 10px;
+}
+.iconsize1{
+  font-size: 40px;
+}
+.yellow{
+  color:#F7A200;
+}
+.red_yellow{
+
+  color:#F74B00;
+}
+.margin_right{
+  margin-right: 5px;
+}
+.big{
+  font-weight: 100;
+  
+}
+.location,.aq_value{
+  font-weight: 400;
+}
+.current{
+  padding: 24px;
+  background-size:cover;
+  color: white;
+}
+.current--31{
+  background-color: rgba(0, 0, 0, 0.3);
+  
+}
+
+
+
