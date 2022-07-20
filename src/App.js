@@ -34,7 +34,7 @@ function App() {
 React.useEffect(()=>{
 
   getlocation().then((res)=>{
-    axios.get(`http://api.weatherapi.com/v1/forecast.json?key=2e349da0dbda4b51afb195737221707&q=${res}&days=9&aqi=yes&alerts=yes`)
+    axios.get(`https://api.weatherapi.com/v1/forecast.json?key=2e349da0dbda4b51afb195737221707&q=${res}&days=9&aqi=yes&alerts=yes`)
   .then((response)=>{setweather(()=>{return response.data})})
   .catch((err)=>{console.log(err)})
   })
@@ -47,7 +47,7 @@ async function submitHandler(event){
   event.preventDefault();
   try {
     
-    let res=await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=2e349da0dbda4b51afb195737221707&q=${city}&days=9&aqi=yes&alerts=yes`)
+    let res=await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=2e349da0dbda4b51afb195737221707&q=${city}&days=9&aqi=yes&alerts=yes`)
   
     setweather(()=>{return res.data})
 
