@@ -75,7 +75,7 @@ const Background_data=[
 		"code" : 1117,
 		"day" : "Blizzard",
 		"night" : "Blizzard",
-		"icon" : 230
+		"icon" : "bilzzard.gif"
 	},
 	{
 		"code" : 1135,
@@ -165,13 +165,13 @@ const Background_data=[
 		"code" : 1204,
 		"day" : "Light sleet",
 		"night" : "Light sleet",
-		"icon" : 317
+		"icon" : "ice.gif"
 	},
 	{
 		"code" : 1207,
 		"day" : "Moderate or heavy sleet",
 		"night" : "Moderate or heavy sleet",
-		"icon" : 320
+		"icon" : "ice.gif"
 	},
 	{
 		"code" : 1210,
