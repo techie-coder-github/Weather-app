@@ -7,7 +7,7 @@ export default function Temp() {
     }
 
     console.log(num);
-    function fun(event) {
+function fun(event) {
         event.preventDefault(); //bro my 'd' is capital
         let j = num;
         setdata(() => { return [] })
